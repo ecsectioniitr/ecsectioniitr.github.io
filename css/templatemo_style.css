@@ -291,7 +291,6 @@ hr {
   overflow: hidden;
   padding-left: 130px;
   line-height: 100px;
-  text-transform: uppercase;
   color: #ec523f;
   font-size: 32px;
   font-weight: 700;
@@ -774,7 +773,6 @@ hr {
   text-transform: uppercase;
   border: 0;
 }
-
 #go-top {
   background-color: #ec523f;
   color: white;
