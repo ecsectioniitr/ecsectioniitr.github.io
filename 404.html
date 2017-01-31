@@ -56,19 +56,20 @@
             <div class="container">
                 <div class="row">
                     <div class="heading-section col-md-12 text-center">
-                        <p>Lost? Find us in the map below.</p>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#contact -->
+        <div class="content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <p>Lost? </br>
+                        </br>
+                        </br>Click on the links above</p>
                     </div> <!-- /.heading-section -->
                     </div> <!-- /.row -->
                 </div> <!-- /.container -->
-                <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                       <div class="googlemap-wrapper">
-                            <div id="map_canvas" class="map-canvas"></div>
-                        </div> <!-- /.googlemap-wrapper -->
-                    </div> <!-- /.col-md-12 -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
         </div> <!-- /#contact -->
             
         <div id="footer">
@@ -83,28 +84,5 @@
                 </div> <!-- /.row -->
             </div> <!-- /.container -->
         </div> <!-- /#footer -->
-
-        <!-- Google Map -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true&key=AIzaSyAGvabH6ex8Ks9i-dsdvCVtj9m2hDrKzdw&callback=initMap"></script>
-        <script src="js/vendor/jquery.gmap3.min.js"></script>
-        
-        <!-- Google Map Init-->
-        <script type="text/javascript">
-            jQuery(function($){
-                $('#map_canvas').gmap3({
-                    marker:{
-                        address: '29.8633097,77.892526' 
-                    },
-                        map:{
-                        options:{
-                        zoom: 15,
-                        scrollwheel: false,
-                        streetViewControl : true
-                        }
-                    }
-                });
-                $('body').bind('touchstart', function() {});
-            });
-        </script>
     </body>
 </html>
