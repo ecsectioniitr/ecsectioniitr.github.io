@@ -645,6 +645,17 @@ hr {
 .team-member {
   margin-bottom: 30px;
 }
+
+.center1 {
+  position : absolute;    
+    width    : 200px;
+    height   : 200px;
+    left     : 50%;
+    top      : 50%;
+    margin-left : -100px; /* half of the width  */
+    margin-top  : -100px; /* half of the height */
+}
+
 .team-member .member-thumb {
   position: relative;
   overflow: hidden;
