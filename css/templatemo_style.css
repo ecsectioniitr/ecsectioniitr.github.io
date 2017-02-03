@@ -481,10 +481,26 @@ hr {
   }
 }
 
+
+
+
+
 .content-section {
+  border: 3px solid #2B2B2B;
+border-radius: 5px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 20px;
+margin-right: 20px;
   margin-top: 80px;
   padding-top: 60px;
 }
+
+
+
+
+
+
 
 .heading-section {
   margin-bottom: 60px;
@@ -492,7 +508,6 @@ hr {
 .heading-section h2 {
   font-size: 28px;
   font-weight: 600;
-  text-transform: uppercase;
   border-bottom: 1px solid #444444;
   display: inline-block;
 }
@@ -500,7 +515,6 @@ hr {
   color: #444444;
   font-size: 16px;
   font-weight: 300;
-  text-transform: uppercase;
   margin-top: 10px;
 }
 
